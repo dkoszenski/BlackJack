@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 class Program {
     static void Main(string[] arrgs) {
-        Deck newDeck = new Deck();
-        newDeck.createDeck();
-        newDeck.PrintDeck();
+        Tester test = new Tester();
+
+        test.TestDeck();
     }
 }
